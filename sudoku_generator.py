@@ -130,6 +130,6 @@ def generate_sudoku(size, removed):
         return board
 
 
-board = generate_sudoku(9, 30)
+#board = generate_sudoku(9, 30)
 
 
