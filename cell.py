@@ -14,7 +14,7 @@ class Cell:
 
     def set_sketched_value(self,value):
         self.sketched_val = value
-
+#constants like 100 to be changedd
     def draw(self):
         num_font=pygame.font.Font(None,100)
         num_surf=num_font.render(str(self.value),1,(100,100,100))
